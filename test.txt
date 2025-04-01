@@ -1,5 +1,9 @@
-i
-pupp
-hollo
+# Simple Python Program
+name = input("What's your name? ")
+print(f"Hello, {name}! 🤖")
 
-laaaaa
+birth_year = int(input("What year were you born? "))
+age = 2024 - birth_year
+print(f"I bet you're {age} years old! 🎂")
+
+print("Why did Python cross the road?\nTo 'import' the other side! 🐍")
